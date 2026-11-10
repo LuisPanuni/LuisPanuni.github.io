@@ -21,10 +21,6 @@ python -m http.server 8000
 
 Después visita `http://localhost:8000`.
 
-## Publicar
-
-Al ser un sitio estático puede publicarse en GitHub Pages, Cloudflare Pages, Netlify o Vercel sin pasos de compilación. En GitHub Pages, selecciona la rama del repositorio y la carpeta raíz como fuente.
-
 ## Diseño y decisiones técnicas
 
 - La navegación separa proyectos, perfil y tecnologías para presentar primero la evidencia profesional. El escritorio interactivo presenta rutas destacadas y pequeños experimentos; el retrato personal permanece en la sección de perfil. El fondo oscuro y la animación se comparten entre todas las secciones, con superficies translúcidas para mantener la lectura.
@@ -42,7 +38,3 @@ La organización por evidencia de proyecto toma como referencia estos sitios rea
 - [Jeremy Hayes — Portfolio Website](https://www.jeremymhayes.com/projects/portfolio-website): explica la decisión de priorizar casos de estudio, metadatos y rutas claras para una audiencia profesional.
 - [Rishit Tandon — How This Interactive Portfolio Website Is Built](https://portfolio.rishit.site/how-its-built): caso técnico detallado y la observación de que una experiencia muy interactiva debe seguir ofreciendo contenido rastreable a buscadores.
 - [Keita Yamada — p5aholic.me](https://p5aholic.me/): referencia de navegación simple, selector de apariencia (clara, oscura y monoespaciada), tipografía expresiva y presencia de experimentación visual.
-
-## Contenido por confirmar
-
-El CV, las capturas que compartiste y tus próximas respuestas son las fuentes del contenido. Para completar los casos de estudio conviene añadir enlaces de demostración/repositorio, fechas, decisiones de arquitectura, persistencia, responsabilidades individuales y resultados comprobables. No están inventados ni rellenados con placeholders en el sitio.
